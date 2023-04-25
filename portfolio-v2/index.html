@@ -10,12 +10,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-  body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-  .w3-row-padding img {margin-bottom: 12px}
-  /* Set the width of the sidebar to 120px */
-  .w3-sidebar {width: 100px;background: #222;}
-  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-  #main {margin-left: 100px}
+  body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;}
+
   /* Remove margins from "page content" on small screens */
   @media only screen and (max-width: 600px) {#main {margin-left: 0}}
   </style>
@@ -23,27 +19,28 @@
 
 
 <body class="w3-black">
+  
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="assets/Black And White Business Logo.png" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
+<!-- Icon Bar (Bar - hidden on small screens) -->
+<nav class="navbar w3-hide-small w3-small w3-opacity w3-hover-opacity-off">
+
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <p>HOME</p>
   </a>
+
   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
+
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
     <p>PROJECTS</p>
   </a>
+
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
   </a>
+
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -59,14 +56,14 @@
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> <img src="assets/Black And White Business Logo.png" style="width:auto" ></h1>
+  <header class="w3-container w3-padding-32 w3-center" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> <img src="assets/Black And White Business Logo (1).png" style="width:auto" ></h1>
     <img src="assets/myself LA.jpeg" alt="me" class="w3-image" width="900" height="1108">
   </header>
 
   <!-- About Section -->
-    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">About Me</h2>
+    <div class="w3-content w3-justify w3-text-black w3-padding-64" id="about">
+    <h2 class="w3-text-black">About Me</h2>
     <hr style="width:200px" class="w3-opacity">
     <p class="myText">
         Hello there! Welcome to my space. Let me tell you a bit about myself. I love cars, sunny weather, San Diego, the beach, videogames, and software development. The latter though, was not something I knew I loved, until I started doing it. It was always something that interested me but seemed extremely scary and daunting. 
@@ -77,36 +74,36 @@
     <p>
          I am so happy with my decision of becoming a software developer, and I am not looking back. Please check out the projects that I have developed and helped co-develop. I plan to add many more projects in the near future. My email, phone, and other links are also available. Please, give me a holler!
     </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Ruby<i class="fa fa-diamond w3-xxlarge"></i></p>
+    <h3 class="w3-padding-16 w3-text-black">My Skills</h3>
+    <p class="w3-wide w3-w3-text-black">Ruby<i class="fa fa-diamond w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:90%"></div>
     </div>
-    <p class="w3-wide">JavaScript<i class="fa fa-code w3-xxlarge"></i></p>
+    <p class="w3-wide w3-w3-text-black">JavaScript<i class="fa fa-code w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:75%"></div>
     </div>
-    <p class="w3-wide">CSS<i class="fa fa-css3 w3-xxlarge"></i></p>
+    <p class="w3-wide w3-w3-text-black">CSS<i class="fa fa-css3 w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
-    <p class="w3-wide">HTML<i class="fa fa-html5 w3-xxlarge"></i></p>
+    <p class="w3-wide w3-w3-text-black">HTML<i class="fa fa-html5 w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div>
-    <p class="w3-wide">PostgreSQL<i class="fa fa-check-square-o w3-xxlarge"></i></p>
+    <p class="w3-wide w3-w3-text-black">PostgreSQL<i class="fa fa-check-square-o w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:65%"></div>
     </div>
-    <p class="w3-wide">React<i class="fa fa-check-square-o w3-xxlarge"></i></p>
+    <p class="w3-wide w3-w3-text-black">React<i class="fa fa-check-square-o w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:50%"></div>
     </div>
-    <p class="w3-wide">Ruby On Rails<i class="fa fa-check-square-o w3-xxlarge"></i></p>
+    <p class="w3-wide w3-w3-text-black">Ruby On Rails<i class="fa fa-check-square-o w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:75%"></div>
     </div>
-    <p class="w3-wide">Git<i class="fa fa-git w3-xxlarge"></i></p>
+    <p class="w3-wide w3-w3-text-black">Git<i class="fa fa-git w3-xxlarge"></i></p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:100%"></div>
     </div><br>
@@ -118,19 +115,19 @@
   </div>
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Projects</h2>
+  <div class="w3-padding-64 w3-content w3-text-black" id="photos">
+    <h2 class="w3-text-black">My Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
 
     <!-- This is the first entry of your projects -->
-    <div class="row mt-3">
+    <div class="row mt-3 w3-text-black">
         <div class="col-lg-4 col-md-12">
             <div>
                 <img src="assets/default-image.jpg" alt="My Project Image" width="500" height="auto">
             </div>
         </div>
-        <div class="col-lg-8 col-md-12">
+        <div class="col-lg-8 col-md-12 w3-text-black">
             <h3>Treasure Hunt</h3>
             <p>A game application created using React. Simple grid layout in which user has to click on the squares in order to find a diamond. Styled with css and functionality with JavaScript </p>
             
@@ -147,15 +144,15 @@
     <!-- This is a horizontal rule, which is used to divide content -->
     <hr>
     <!-- This is the second entry of your projects -->
-    <div class="row mt-3">
+    <div class="row mt-3 w3-text-black">
         <div class="col-lg-4 col-md-12">
             <div>
                 <img src="assets/default-image.jpg" alt="My Project Image" width="500" height="auto">
             </div>
         </div>
-        <div class="col-lg-8 col-md-12">
+        <div class="col-lg-8 col-md-12 ">
             <h3>Tic-Tac-Toe</h3>
-            <p class="w3-text-light-grey"> A game application created in React with another developer using pair programming collaboration. Added styling using css properties and functionality with JavaScript </p>
+            <p class="w3-text-black"> A game application created in React with another developer using pair programming collaboration. Added styling using css properties and functionality with JavaScript </p>
             
         </div>
     </div>
@@ -195,26 +192,27 @@
 
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
+  <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+    <h2 class="w3-text-black">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> San Diego, CA</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 360-515-6293</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:apple.ortiz@hotmail.com?subject=Coming From Your Website" target="_blank" class="list-group-item list-group-item-action w3-hover-opacity">apple.ortiz@hotmail.com</a></p>
+    <div class="w3-section w3-text-black">
+      <p><i class="fa fa-map-marker fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> San Diego, CA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> Phone: 360-515-6293</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-black w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:apple.ortiz@hotmail.com?subject=Coming From Your Website" target="_blank" class="list-group-item list-group-item-action w3-hover-opacity">apple.ortiz@hotmail.com</a></p>
 
-      <p><i class="fa fa-linkedin  fa-fw w3-text-white w3-xxlarge w3-margin-right "></i>LinkedIn:  <a href="https://www.linkedin.com/in/apolonioortiz/" target="_blank" class="list-group-item list-group-item-action w3-hover-opacity">https://www.linkedin.com/in/apolonioortiz/</a></p>
+      <p><i class="fa fa-linkedin  fa-fw w3-text-black w3-xxlarge w3-margin-right "></i>LinkedIn:  <a href="https://www.linkedin.com/in/apolonioortiz/" target="_blank" class="list-group-item list-group-item-action w3-hover-opacity">https://www.linkedin.com/in/apolonioortiz/</a></p>
 
-      <p><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> GitHub:  <a href="https://github.com/SunGodApollo" class="list-group-item list-group-item-action w3-hover-opacity"> github.com/SunGodApollo </a></p>
+      <p><i class="fa fa-github fa-fw w3-text-black w3-xxlarge w3-margin-right"> </i> GitHub:  <a href="https://github.com/SunGodApollo" class="list-group-item list-group-item-action w3-hover-opacity"> github.com/SunGodApollo </a></p>
+      <p>Lets get in touch.</p>
     </div><br>
-    <p>Let's get in touch.</p>
+
 
   <!-- End Contact Section -->
   </div>
   
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <footer class="w3-content w3-padding-64 w3-text-black w3-xlarge">
     <p class="w3-medium">Apolonio Ortiz | 2023</p>
   <!-- End footer -->
   </footer>
